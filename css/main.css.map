@@ -1,10 +1,12 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AGAA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,SAAS;EAClB,gBAAgB,EFGA,OAAO;EEFvB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,MAAM;EACjB,WAAW,EAAE,GAAG;CACjB;;ACND,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,WAAW;EACpB,aAAa,EAAE,IAAI;EACnB,KAAK,EHDS,OAAO;CGEtB;;ACJD,AAAA,IAAI,CAAC;EACH,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "../scss/main.scss",
         "../scss/abstracts/_variables.scss",
         "../scss/base/_animation.scss",
+        "../scss/components/_button.scss",
+        "../scss/components/_input.scss",
         "../scss/pages/_home.scss"
     ],
     "names": [],
