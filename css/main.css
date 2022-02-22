@@ -4,6 +4,15 @@
   border-radius: 2rem;
   font-size: 1.3rem;
   font-weight: 700;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-5px) scale(1.05);
+          transform: translateY(-5px) scale(1.05);
+  -webkit-box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5);
+          box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5);
 }
 
 .guess {

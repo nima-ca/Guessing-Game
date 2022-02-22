@@ -4,4 +4,10 @@
   border-radius: 2rem;
   font-size: 1.3rem;
   font-weight: 700;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.5);
+  }
 }
