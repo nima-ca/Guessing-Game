@@ -20,25 +20,28 @@
         <div>
           <button class="btn again">Try Again!</button>
         </div>
-        <h1 class="font-black text-7xl">Guessing Game!</h1>
-        <div class="text-xl points">
+        <div class="flex flex-col items-center">
+          <h1 class="mb-8 font-black text-7xl">Guessing Game!</h1>
+          <p class="text-2xl">Choose a Number Between 1 to 20!</p>
+        </div>
+        <div class="text-xl tracking-wider points">
           <p>Score: <span class="score">20</span></p>
-          <p>Highscore: <span class="score">0</span></p>
+          <p>Highscore: <span class="highscore">0</span></p>
         </div>
       </section>
     </header>
     <main class="flex flex-col items-center justify-center">
       <div
-        class="mb-10 w-80 h-80 border-4 border-[#d90429] rounded-full flex justify-center items-center"
+        class="circle mb-10 w-80 h-80 border-4 border-[#d90429] rounded-full flex justify-center items-center"
       >
         <p class="text-6xl number">?</p>
       </div>
-      <p class="text-4xl">Start The Game!</p>
+      <p class="text-4xl message">👻 Start The Game!</p>
       <div class="flex mt-14">
         <input type="number" placeholder="Enter a number:" class="mr-8 guess" />
         <button class="btn check">Check!</button>
       </div>
     </main>
-    <script src="scripts/index.js"></script>
+    <script src="../scripts/index.js"></script>
   </body>
 </html>
