@@ -7,8 +7,27 @@
     <title>Guessing Game</title>
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
+  <body class="bg-[#2b2d42] p-10 text-[#edf2f4] font-Lato">
+    <header>
+      <section class="flex justify-between">
+        <div>
+          <button class="btn again">Try Again!</button>
+        </div>
+        <h1 class="text-6xl">Guessing Game!</h1>
+        <div class="points">
+          <p>Score: <span class="score">20</span></p>
+          <p>Highscore: <span class="score">0</span></p>
+        </div>
+      </section>
+    </header>
+    <main></main>
     <script src="scripts/index.js"></script>
   </body>
 </html>
