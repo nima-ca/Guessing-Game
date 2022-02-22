@@ -10,4 +10,9 @@
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.5);
   }
+
+  &:active {
+    transform: translateY(0px) scale(0.95);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.6);
+  }
 }

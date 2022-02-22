@@ -15,6 +15,13 @@
           box-shadow: 0 1rem 2rem rgba(34, 34, 34, 0.5);
 }
 
+.btn:active {
+  -webkit-transform: translateY(0px) scale(0.95);
+          transform: translateY(0px) scale(0.95);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.6);
+          box-shadow: 0 0.5rem 1rem rgba(34, 34, 34, 0.6);
+}
+
 .guess {
   padding: 0.5rem 1rem;
   border-radius: 2rem;
