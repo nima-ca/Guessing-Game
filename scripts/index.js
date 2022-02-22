@@ -15,7 +15,7 @@ document.querySelector(".check").addEventListener("click", function () {
       message(guess > secretNumber ? "😕 Too High!" : " 😢 Too Low!");
       score--;
       document.querySelector(".score").textContent = score;
-    } else message("You Lost!");
+    } else message("😭 You Lost!");
   } else if (guess === secretNumber) {
     document.querySelector(".number").textContent = secretNumber;
     message("🎉😍 Congratulations, You Won!!! 💃🕺");
