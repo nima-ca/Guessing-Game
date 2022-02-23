@@ -4,6 +4,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Lato: ["Lato"],
+        Roboto: ["Roboto"],
       },
     },
   },
